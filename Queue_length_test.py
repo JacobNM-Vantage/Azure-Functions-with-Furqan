@@ -28,7 +28,5 @@ def poll_queues(myTimer: func.TimerRequest) -> None:
     # Close the connection
     connection.close()
 
-    
- 
 
     logging.info('Python timer trigger function executed.')
